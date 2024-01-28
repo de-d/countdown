@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resetCSS.css" />
+    <title>Countdown</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="countdown__container">
+        <div class="countdown-form">
+          <label for="countdown" class="countdown-label">Введите дату</label>
+          <div class="countdown-input-btn">
+            <input type="date" lang="en" id="countdown" class="countdown-input" />
+            <button class="countdown-btn" id="countdown-btn">Посчитать</button>
+          </div>
+        </div>
+        <div class="time-left__container">
+          <h2 class="time-left__title">Осталось времени:</h2>
+          <div class="time-left" id="time-left">
+            <div class="time-left__result"><span id="time-left__result"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
